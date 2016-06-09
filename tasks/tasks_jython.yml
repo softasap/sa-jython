@@ -19,8 +19,8 @@
     tags:
         -jython
 
-  - name: Jython | sudo ln -s /usr/local/lib/jython/bin/jython /usr/local/bin/jython
-    file: src=/usr/local/lib/jython/bin/jython dest=/usr/local/bin/ state=link
+  - name: Jython | sudo ln -s /usr/local/lib/jython/bin/jython /usr/local/bin/
+    file: src=/usr/local/lib/jython/bin/jython dest=/usr/local/bin/jython state=link
     when: jython_present | failed
     become: yes
     tags:
