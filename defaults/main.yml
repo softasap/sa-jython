@@ -1,0 +1,5 @@
+---
+# defaults file for sa-jython
+  jython_version: 2.7.0
+
+  option_install_java: false
